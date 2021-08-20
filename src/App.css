@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 5px;
+  background-color: #fcfcfc;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-family: 'Russo One', sans-serif;
+}
+
+.shadowContainer {
+  box-shadow: -1px 5px 14px 3px rgba(0,0,0,0.46);
+  border-radius: 10px;
+}

@@ -1,0 +1,322 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .content {
+        top: 300px;
+    }
+    #about .photos {
+        width: 85%;
+    }
+    #about .photos .we {
+        width: 340px;
+    }
+    .otherPhoto {
+        width: 420px;
+    }
+    .white p {
+        font-size: 20px;
+    }
+    .time {
+        padding: 15px 28px;
+        font-size: 30px;
+    }
+    .time span {
+        font-size: 15px;
+    }
+    .location p {
+        font-size: 17px;
+    }
+    .castleIcon {
+        width: 35px;
+    }
+    .white #map {
+        width: 400px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content {
+        top: 300px;
+    }
+    #about .photos {
+        width: 80%;
+    }
+    #about .photos .we {
+        width: 380px;
+    }
+    .time {
+        padding: 15px 28px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .content {
+        top: 260px;
+    }
+    #about .photos {
+        width: 90%;
+    }
+    #about .photos .we {
+        width: 280px;
+    }
+    .aboutUs {
+        width: 100%;
+    }
+    .white {
+        flex-direction: column;
+        padding: 20px 20px 20px;
+    }
+    .white p {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        padding: 0;
+    }
+    #borderLeft {
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+    .otherPhoto {
+        width: 545px;
+    }
+    .otherPhoto.buket {
+        width: 310px;
+    }
+    #column {
+        font-size: 20px;
+    }
+    .counterContainer {
+        width: 90%;
+    }
+    .time {
+        padding: 15px 28px;
+        font-size: 30px;
+    }
+    .time span {
+        font-size: 15px;
+    }
+    .location p {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .castleIcon {
+        width: 35px;
+    }
+    .white #map {
+        width: 400px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .content {
+        top: 180px;
+    }
+    #about .photos {
+        width: 100%;
+    }
+    #about .photos .we {
+        width: 230px;
+    }
+    .aboutUs {
+        width: 100%;
+    }
+    .white {
+        flex-direction: column;
+        padding: 20px 20px 20px;
+    }
+    .white p {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #borderLeft {
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+    .otherPhoto {
+        width: 545px;
+    }
+    .otherPhoto.buket {
+        width: 310px;
+    }
+    #column {
+        font-size: 20px;
+    }
+    .counterContainer {
+        width: 100%;
+    }
+    .time {
+        padding: 8px 22px;
+        font-size: 30px;
+    }
+    .time span {
+        font-size: 15px;
+    }
+    .location p {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .castleIcon {
+        width: 35px;
+    }
+    .white #map {
+        width: 400px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .content {
+        top: 80px;
+    }
+    #about .photos {
+        width: 100%;
+    }
+    #about .photos .we {
+        width: 140px;
+    }
+    .aboutUs {
+        width: 100%;
+    }
+    .white {
+        flex-direction: column;
+        padding: 20px 20px 20px;
+    }
+    .white p {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #borderLeft {
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+    .otherPhoto {
+        width: 330px;
+    }
+    .otherPhoto.buket {
+        width: 270px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #column {
+        font-size: 20px;
+    }
+    .counterContainer {
+        width: 100%;
+    }
+    .time {
+        padding: 8px 15px;
+        font-size: 18px;
+        min-width: fit-content;
+    }
+    .grey {
+        padding: 8px;
+    }
+    .time span {
+        font-size: 11px;
+    }
+    .location p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .castleIcon {
+        width: 25px;
+    }
+    .white #map {
+        width: 330px;
+    }
+    .footer span {
+        font-size: 11px;
+    }
+    .footer img {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content {
+        top: 55px;
+    }
+    #about .photos {
+        width: 100%;
+    }
+    #about .photos .we {
+        width: 140px;
+    }
+    .aboutUs {
+        width: 100%;
+    }
+    .white {
+        flex-direction: column;
+        padding: 20px 20px 20px;
+    }
+    .white p {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #borderLeft {
+        border-left: none;
+        margin: 0;
+        padding: 0;
+    }
+    .otherPhoto {
+        width: 280px;
+    }
+    .otherPhoto.buket {
+        width: 200px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #column {
+        font-size: 20px;
+    }
+    .counterContainer {
+        width: 100%;
+    }
+    .time {
+        padding: 8px 8px;
+        font-size: 18px;
+        min-width: fit-content;
+    }
+    .grey {
+        padding: 8px;
+    }
+    .time span {
+        font-size: 11px;
+    }
+    .location p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .castleIcon {
+        width: 25px;
+    }
+    .white #map {
+        width: 280px;
+    }
+    .footer span {
+        font-size: 10px;
+    }
+    .footer img {
+        width: 30px;
+    }
+}
